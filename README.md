@@ -1,12 +1,17 @@
 ## Descrição
 
-Este repositório contém um aplicativo que converte uma imagem em uma canção. O aplicativo foi escrito em Python e utiliza a biblioteca Streamlit para criar uma interface de usuário web interativa. Este projeto é uma adaptação do trabalho original de [Victor Murcia](https://github.com/victormurcia). Victor tem trabalhos muito interessantes na intersecção de música, arte e programação.
+Este repositório contém um aplicativo que converte uma imagem em uma canção. 
 
-O código é composto por várias funções que implementam a geração de notas musicais e a criação de uma escala musical a partir das imagens fornecidas. A imagem é convertida em uma canção utilizando a análise de cor de seus pixels, que são mapeados para diferentes notas musicais.
+O aplicativo foi escrito em Python e utiliza a biblioteca Streamlit para criar uma interface de usuário web interativa. Este projeto é uma adaptação do trabalho original de [Victor Murcia](https://github.com/victormurcia). 
+Victor tem trabalhos muito interessantes na intersecção de música, arte e programação.
+
+O código é composto por várias funções que implementam a geração de notas musicais e a criação de uma escala musical a partir das imagens fornecidas. 
+A imagem é convertida em uma canção utilizando a análise de cor de seus pixels, que são mapeados para diferentes notas musicais.
 
 ## Como usar
 
-Este aplicativo é baseado na web e pode ser executado localmente usando o Streamlit. Para isso, instale as dependências necessárias listadas no arquivo `requirements.txt` e execute o comando `streamlit run <nome do arquivo.py>`.
+Este aplicativo é baseado na web e pode ser executado localmente usando o [Streamlit](https://dumoura-imagineosom-app-qtzicg.streamlit.app/).
+Para isso, instale as dependências necessárias listadas no arquivo `requirements.txt` e execute o comando `streamlit run <nome do arquivo.py>`.
 
 Na interface do usuário, você pode carregar sua própria imagem ou selecionar uma imagem de exemplo. Em seguida, você pode escolher a escala, a tonalidade, a oitava e a harmonia que deseja aplicar à imagem. A imagem carregada será convertida em uma canção baseada nas opções selecionadas. Você também tem a opção de usar pixels aleatórios da imagem e definir a duração de cada nota na canção.
 
