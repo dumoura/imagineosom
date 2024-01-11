@@ -7,3 +7,4 @@ pedalboard==0.5.9
 Pillow>=9.2.0,<10.3.0
 scipy==1.7.3
 streamlit==1.13.0
+
